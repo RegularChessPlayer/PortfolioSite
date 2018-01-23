@@ -1,0 +1,36 @@
+
+*{
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header{
+  border-bottom: 2px solid black;
+  padding: 8px;
+  float: ri
+}
+
+.title-header{
+  width: 50%;
+}
+
+.subtitle{
+  margin-top: 0;
+  width: 50%;
+}
+
+.udacity-logo{
+  height: 80px;
+  width: 80px; 
+  float: left;
+  margin-right: 10px;
+}
+
+h1{
+  background-color: #02b3e4;
+}
+
+p1{
+  color: blue;
+  background-color: #7d97ad;
+}
