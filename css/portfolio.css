@@ -6,24 +6,30 @@
 
 .header{
   padding: 8px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #7d97ad;
 }
 
-.cleafix:after{
-  content: "";
-  clear: both;
-  display: table;
+.clearfix::after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
 }
 
 .title-header{
   width: 50%;
-  text-align: right
+  text-align: right;
   float: right;
+  margin-bottom: 0;    
+  padding: 0;
 }
 
 .subtitle{
-  margin-top: 0;
   width: 50%;
+  text-align: right;
+  float: right;
+  clear: both;
+  margin-top: 0;
 }
 
 .udacity-logo{
@@ -32,10 +38,22 @@
   float: left;
 }
 
-h1{
-  background-color: #02b3e4;
+.layout_img{
+  margin-top: 10px;
 }
 
+.front-concept{
+  width: 120px; 
+  height: 150px
+}
+
+h1{
+  color: #2d3c49;
+}
+
+h2{
+  color: #2d3c49;
+}
 p1{
   color: blue;
   background-color: #7d97ad;
