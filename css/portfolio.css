@@ -45,7 +45,7 @@ main {
   align-items: flex-start;
 }
 
-main p {
+.main__description {
   margin: 10px;
   text-indent: 2em;
 }
@@ -75,32 +75,12 @@ main p {
   text-transform: uppercase;
 }
 
-.projects a {
-  text-decoration: none;
+.project__image{
+ width: 50%;
 }
 
-.proj1 {
+.project {
   width: 33.33%;
-}
-
-.portfolio-1 {
-  width: 50%;
-}
-
-.proj2 {
-  width: 33.33%;
-}
-
-.portfolio-2 {
-  width: 50%;
-}
-
-.proj3 {
-  width: 33.33%;
-}
-
-.portfolio-3 {
-  width: 50%;
 }
 
 .foot-markup {
@@ -111,4 +91,21 @@ main p {
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+@media(max-width: 550px){
+    h3, 
+    a, 
+    p {
+        font-size: 1.0rem;
+    }
+    
+    main {
+        flex-direction: column;
+    }
+    
+    .projects{
+        flex-direction: row;
+    }
+    
 }
