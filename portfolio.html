@@ -3,10 +3,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="/img/udacitylogo.png">
+        <link rel="icon" href="img/udacitylogo.png">
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
         <link rel="stylesheet" href="css/portfolio.css">
-        <link rel="stylesheet" media="screen and (max-width: 550px)"  href="css/portfolioBelow550.css">
         <title>Portfolio</title>
     </head>
     <body>
@@ -22,27 +21,32 @@
                 <img src="img/html-css-js.png" alt="frot end tecnologies: html, javascript and css" class="front-tecnologies">
                 <figcaption>Front End Tecnologies</figcaption>
             </figure>
-            <p>The front-end developer creates interaction and user experience with scripts embedded in a site’s HTML. Everything a visitor to your site sees, clicks, or uses to input or retrieve information is the work of the front-end developer who creates client-side software that brings the site’s design to life. Scripts are downloaded by the browser, processed, and then run apart from the server.This takes equal parts technology and vision. Front-end developers are the bridge between the designer and the back-end programmer.</p>
+            <div class="main__description">
+                <p>The front-end developer creates interaction and user experience with scripts embedded in a site’s HTML. Everything a visitor to your site sees, clicks, or uses to input or retrieve information is the work of the front-end developer who creates client-side software that brings the site’s design to life. Scripts are downloaded by the browser, processed, and then run apart from the server.This takes equal parts technology and vision. Front-end developers are the bridge between the designer and the back-end programmer.</p>
+            </div>
         </main>
-        <nav>
+        <div class="related-projects">
             <h2>Featured work</h2>
-            <div class="projects">
-                <div class="proj1">
-                    <img src="img/movie_logo.png" alt="logo reating-movies" class="portfolio-1">
+            <section class="projects">
+                <article class="project">
+                    <img src="img/movie_logo.png" alt="logo reating-movies" class="project__image">
                     <h3>rating-movies</h3>
-                    <a href="https://github.com/RegularChessPlayer/ud036_StarterCode">Repository</a>
-                </div>
-                <div class ="proj2">
-                    <img src="img/huntersPreyLogo.png" alt="logo hunters ans prey" class="portfolio-2"> 
+                    <a href="https://github.com/RegularChessPlayer/ud036_StarterCode" target="_blank">Repository</a>
+                </article>
+                <article class ="project">
+                    <img src="img/huntersPreyLogo.png" alt="logo hunters ans prey" class="project__image"> 
                     <h3>hunters and prey</h3>
-                    <a href="https://github.com/RegularChessPlayer/ud036_StarterCode">Repository</a>
-                </div>
-                <div class="proj3">
-                    <img src="img/front_concept.png" alt="logo my portfolio" class="portfolio-3">
+                    <a href="https://github.com/RegularChessPlayer/ud036_StarterCode" target="_blank">Repository</a>
+                </article>
+                <article class="project">
+                    <img src="img/front_concept.png" alt="logo my portfolio" class="project__image">
                     <h3>my-portfolio</h3>
-                    <a href="https://github.com/RegularChessPlayer/PortfolioSite">Repository</a>
-                </div>
-            </div>    
-        </nav>
+                    <a href="https://github.com/RegularChessPlayer/PortfolioSite" target="_blank">Repository</a>
+                </article>
+            </section>
+        </div>
+        <footer class="foot-markup">
+			&copy; Thiago de Souza 2018
+		</footer>
     </body>
 </html>
